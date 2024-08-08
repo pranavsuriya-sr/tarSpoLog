@@ -45,6 +45,7 @@ function handleLogin(event) {
 
     if (loggedIn) {
       alert("Login successful!");
+      window.location.href = "https://taradd.netlify.app";
     } else {
       alert("Invalid username or password.");
     }
